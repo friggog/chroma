@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.chromaprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.chromaprefs.settingschanged</string>
+			<key>key</key>
+			<string>tintEnabled</string>
+			<key>label</key>
+			<string>Tint</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.chromaprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.chromaprefs.settingschanged</string>
+			<key>key</key>
+			<string>ncEnabled</string>
+			<key>label</key>
+			<string>NC</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.chromaprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.chromaprefs.settingschanged</string>
+			<key>key</key>
+			<string>ccEnabled</string>
+			<key>label</key>
+			<string>CC</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.chromaprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.chromaprefs.settingschanged</string>
+			<key>key</key>
+			<string>HUDEnabled</string>
+			<key>label</key>
+			<string>HUD</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You may need to respring/restart apps for these changes to take effect.</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Advanced Options</string>
+</dict>
+</plist>

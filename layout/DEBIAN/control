@@ -1,0 +1,11 @@
+Package: me.chewitt.chroma
+Name: Chroma
+Depends: mobilesubstrate, preferenceloader, firmware (>=7.0), applist
+Version: 1.5.1
+Architecture: iphoneos-arm
+Conflicts: me.chewitt.unitint
+Description: Simple, lightweight UI customisation.
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Icon: file:///Library/PreferenceBundles/ChromaPrefs.bundle/icon_large.png
+Section: Tweaks
